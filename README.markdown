@@ -11,7 +11,7 @@ Installation
 FlatUIColors can be installed via [Cocoapods](http://cocoapods.org/). Simply add
 
 ```ruby
-pod 'FlatUIColors', :git => ', :git => 'https://github.com/gowalla/AFNetworking.git'
+pod 'FlatUIColors', :git => 'https://github.com/gtg922r/FlatUIColors.git'
 ```
 
 The Components
