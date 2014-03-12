@@ -36,6 +36,6 @@
                               backgroundColor:(UIColor *)backgroundColor
                                  percentBlend:(CGFloat) percentBlend;
 
-+ (UIColor *) emerlandColor __attribute__((deprecated));
++ (UIColor *) emerlandColor __attribute__((deprecated("use emeraldColor")));
 
 @end
