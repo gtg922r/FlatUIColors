@@ -13,7 +13,7 @@
 + (UIColor *) colorFromHexCode:(NSString *)hexString;
 + (UIColor *) turquoiseColor;
 + (UIColor *) greenSeaColor;
-+ (UIColor *) emerlandColor;
++ (UIColor *) emeraldColor;
 + (UIColor *) nephritisColor;
 + (UIColor *) peterRiverColor;
 + (UIColor *) belizeHoleColor;
@@ -35,5 +35,7 @@
 + (UIColor *) blendedColorWithForegroundColor:(UIColor *)foregroundColor
                               backgroundColor:(UIColor *)backgroundColor
                                  percentBlend:(CGFloat) percentBlend;
+
++ (UIColor *) emerlandColor __attribute__((deprecated));
 
 @end

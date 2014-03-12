@@ -55,8 +55,11 @@
     
     return greenSea;
 }
-
 + (UIColor *) emerlandColor {
+    return [self emeraldColor];
+}
+
++ (UIColor *) emeraldColor {
     static UIColor *emerald = nil;
     static dispatch_once_t emeraldToken;
     
